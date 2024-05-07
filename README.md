@@ -15,13 +15,13 @@ Usage Example
 -------------
 
 ```bash
-$ docker run --rm frolvlad/alpine-python3 python3 -c 'print("Hello World")'
+$ docker run --rm heysourav/alpine-python:arm64 python3 -c 'print("Hello World")'
 ```
 
 Once you have run this command you will get printed 'Hello World' from Python!  Or use it interactivelly:
 
 ```bash
-$ docker run -it --rm frolvlad/alpine-python3 python3
+$ docker run -it --rm heysourav/alpine-python:arm64 python3
 ```
 
 
